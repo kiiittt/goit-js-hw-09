@@ -11,8 +11,10 @@ startBtn.addEventListener('click', () => {
     const color = getRandomHexColor();
     document.body.style.backgroundColor = color;
   }, 1000);
+    startBtn.disabled = true; 
 });
 
 stopBtn.addEventListener('click', () => {
     clearInterval(timerId);
+    startBtn.disabled = false; 
 });
