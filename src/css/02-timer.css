@@ -1,0 +1,44 @@
+.input-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer {
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-start {
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timer{
+  display: flex;
+  justify-content: center;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+}
+
+.field:not(:last-child){
+  margin-right: 20px;
+}
+
+.value{
+  align-self: center;
+  font-weight: bold;
+}
+
+.label{
+    font-size: medium;
+}
